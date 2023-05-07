@@ -23,7 +23,7 @@ namespace health_c4_model
 
             SoftwareSystem healthSystem = model.AddSoftwareSystem(Location.Internal, "Link System", "Servicio innovador que realiza las notificaciones de accidente.");
             SoftwareSystem notificactionSystem = model.AddSoftwareSystem(Location.Internal, "Notification System", "Sistema interno de notificaciones.");
-            SoftwareSystem tensorFlow = model.AddSoftwareSystem("Tensor Flow", "Plataforma en la que se encuentra la red neuronal entrenada");
+            SoftwareSystem tensorFlow = model.AddSoftwareSystem("Sage Maker", "Servicio en el donde se encuentra el modelo de red neuronal desplegado");
 
 
             Person patient = model.AddPerson("Portador", "Persona adulta mayor que busca cuidar su salud.");
